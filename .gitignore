@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 target
 .idea
 *.iml
+=======
+.vscode
+>>>>>>> commit from vscode
