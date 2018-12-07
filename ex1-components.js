@@ -1,5 +1,5 @@
 
-        Vue.component('demo-grid', {
+        Vue.component('gk-editable-grid', {
             template: '#grid-template',
             props: {
                 data: Array,

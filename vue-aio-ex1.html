@@ -33,12 +33,12 @@
       <form id="search">
         Search <input name="query" v-model="searchQuery" />
       </form>
-      <demo-grid
+      <gk-editable-grid
         :data="gridData"
         :columns="gridColumns"
         :filter-key="searchQuery"
       >
-      </demo-grid>
+      </gk-editable-grid>
     </div>
     <script type="text/x-template" id="grid-template">
         <table>
